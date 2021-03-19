@@ -1,0 +1,103 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+#header_bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    padding-bottom: 100px;
+}
+
+.first_half{
+    width:35%;
+    padding:2%;
+    margin: 5%;
+    float:left;
+    margin-left: 200px;
+
+}
+.second_half{
+    width:35%;
+    padding:2%;
+    float:right;
+    margin-right: 50px;
+}
+
+.second_half img{
+    width:70%;
+    margin: 5%;
+}
+h2{
+    color:#FF3D8A;
+    font-size:30px;
+    margin-top: -10px;
+    display: block;
+}
+h3{
+    display: block;
+}
+p{
+    color:black;
+    text-align:justify;
+    font-size:13px;
+}
+
+.first_half a{
+    text-decoration:none;
+    color:whitesmoke;
+    border-radius: 3px;
+    padding:5px 15px;
+    background-image:linear-gradient(180deg,#FF3D8A, tomato);
+}
+.first_half a:hover{
+    background-color:tomato;
+    color:#FFBB23;
+    transition: all 1s ease;
+}
+/*.................................................*/
+
+.bio_first_half{
+    width:35%;
+    padding:2%;
+    float:left;
+    margin-left: 50px;
+}
+
+.bio_second_half{
+    width:35%;
+    padding:2%;
+    margin: 5%;
+    float:right;
+    margin-right: 200px;
+}
+
+.bio_first_half img{
+    width:70%;
+    margin: 5%;
+}
+
+h1{
+    font-size:40px;
+}
+
+.bio_second_half a{
+    text-decoration:none;
+    color:whitesmoke;
+    border-radius: 3px;
+    padding:10px 20px;
+    background-image:linear-gradient(180deg,#FF3D8A, tomato);
+}
+.bio_second_half a:hover{
+    background-color:tomato;
+    color:#FFBB23;
+    transition: all 1s ease;
+}
+
+#bio_sec{
+    background-image: url("Images/biography-bg.png");
+    background-repeat:no-repeat;
+}
